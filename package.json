@@ -12,7 +12,15 @@
   "repository": "https://github.com/sayrilamar/merng.git",
   "devDependencies": {
     "apollo-server": "^2.12.0",
+    "bcryptjs": "^2.4.3",
+    "cz-conventional-changelog": "3.1.0",
     "graphql": "^15.0.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
