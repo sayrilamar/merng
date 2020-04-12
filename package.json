@@ -7,6 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Jarius Hayes <sayrilamar@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/sayrilamar/merng.git",
+  "devDependencies": {
+    "apollo-server": "^2.12.0",
+    "graphql": "^15.0.0",
+    "mongoose": "^5.9.7"
+  }
 }

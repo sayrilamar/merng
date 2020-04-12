@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/Cellar/node/13.10.1/bin/node /Users/JazeHaze/.yarn/bin/yarn.js init
+
+PATH: 
+  /Users/JazeHaze/.rvm/gems/ruby-2.4.1/bin:/Users/JazeHaze/.rvm/gems/ruby-2.4.1@global/bin:/Users/JazeHaze/.rvm/rubies/ruby-2.4.1/bin:/Users/JazeHaze/.yarn/bin:/Users/JazeHaze/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/JazeHaze/.rvm/gems/ruby-2.4.1/bin:/Users/JazeHaze/.rvm/gems/ruby-2.4.1@global/bin:/Users/JazeHaze/.rvm/rubies/ruby-2.4.1/bin:/Users/JazeHaze/.yarn/bin:/Users/JazeHaze/.config/yarn/global/node_modules/.bin:/Users/JazeHaze/appium_android_setup/android/tools:/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/bin:/Users/JazeHaze/.rvm/bin:/Users/JazeHaze/appium_android_setup/android/tools:/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  13.10.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/JazeHaze/.yarn/lib/cli.js:137008:13)
+      at Interface.emit (events.js:316:20)
+      at Interface._ttyWrite (readline.js:873:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:316:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1140:36)
+      at ReadStream.emit (events.js:316:20)
+      at addChunk (_stream_readable.js:297:12)
+
+npm manifest: 
+  {
+    "name": "merng",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
